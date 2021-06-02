@@ -23,9 +23,7 @@ export class MapCustomService {
   buildMap(): Promise<any> {
     return new Promise((resolve, reject) => {
       try {
-        //CONSTRUCCIÓN DEL MAPA
-
-        
+        //CONSTRUCCIÓN DEL MAPA---------------------------
         this.map = new mapboxgl.Map({
           //le indicamos que se dibuje en el div del html del AppComponent.ts
           container: 'map',
